@@ -1,0 +1,17 @@
+.h1{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    background-color: yellowgreen;
+}
+.image{
+    display: inline-block;
+    margin: 10px 10px;
+    
+    
+  
+}
+
+p{
+    max-width: 200px;
+}
