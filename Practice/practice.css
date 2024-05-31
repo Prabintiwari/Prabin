@@ -1,0 +1,274 @@
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    height: 70px;
+    margin-left: 100px;
+    padding: 20px;
+}
+.link{
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(86, 86, 86)
+}
+
+.link:hover{
+    border-radius: 1px solid red;
+    color: rgb(164, 164, 164);
+    text-decoration: underline;
+}
+.button{
+    border-radius: 5px;
+    border: 1px solid rgb(46, 46, 46);
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    background-color:#3a416f;
+    
+}
+.first-row{
+    position: relative;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content:space-between;
+    height: 500px;
+}
+.first-row h1{
+    max-width: 600px;
+    font-size:60px;
+    color: rgb(52, 71, 103);
+   
+}
+img{
+    border-radius: 10px;
+}
+.image img{ 
+    bottom: -10%;
+    position: absolute; 
+}
+.first-row p{
+    max-width: 600px;
+    font-size: 18px;
+    color: rgb(103, 116, 142);
+  
+    
+}
+.Readmore{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 5px;
+} 
+.z-index{
+    position: absolute;
+    bottom: 5%;
+    z-index: 1;
+    left: 28%;
+    text-align: center;
+    
+}
+
+.second-row{
+    display: flex;
+    padding: 40px 40px;
+    background-color: #3a416f;
+   position: relative;
+  margin-top: 15%;
+   justify-content: space-between;
+   height: 350px;
+   width: 94%;
+}
+.images{
+    position: relative;
+    left: 5%;
+
+  
+}
+
+.second-row h4{
+    color: white;
+    position: absolute;
+    left: 28%;
+    bottom: 280px;
+}
+.second-row h2{
+    color: white;
+    position: absolute;
+    left: 28%;
+    bottom: 250px;
+}
+.second-row p{
+    color: white;
+    position: absolute;
+    left:28%;
+    bottom: 150px;
+    max-width: 300px;
+    font-size: 18px;
+}
+.h3 h4{
+    color: white;
+    position: absolute;
+    left: 70%;
+    bottom: 280px;
+}
+.h3 h2{
+    color: white;
+    position: absolute;
+    left: 70%;
+    bottom: 250px;
+}
+.h3 p{
+    color: white;
+    position: absolute;
+    left: 70%;
+    bottom: 150px;
+}
+.imagess{
+    position: absolute;
+    left: 50%;
+}
+.third-row{
+    height: 600px;
+    display: flex;
+    margin-top: 0%;
+    
+}
+.h1{
+    margin: 100px;
+    position: relative;
+}
+.h1 h1{
+    font-size: 50px;
+    max-width: 500px;
+    
+    color: rgb(52, 71, 103);
+}
+.third-row p{
+    font-size: 18px;
+    max-width: 500px;
+    top: 35%;
+    color:rgb(103, 116, 142) ;
+    position: absolute;
+    height: 500px;
+
+}
+.h2 h1{
+    font-size: 50px;
+    max-width: 500px;
+    position: absolute;
+    top: 220px;
+    color:rgb(23, 193, 232);
+    
+}
+.h2 p{
+    font-size: 18px;
+    max-width: 500px;
+    left: 0px;
+    color:rgb(103, 116, 142) ;
+    position: absolute;
+   top: 300px;
+    
+
+}
+.third-grid{
+    display: grid;
+    left: -8%;
+    position: relative;
+    margin: 10%;
+    justify-content: space-between;  
+    width: 450px;
+}
+ .first{
+    display: flex;
+ }
+.first h1{
+    left: 70px;
+     position: absolute;
+     bottom: 85%;
+     font-size: 25px;
+     width: 400px;
+}
+.first p{
+    width: 400px;
+    position: absolute;
+    left: 70px;
+    top: 8%;
+   
+}
+#icon{
+   border: none;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   background:linear-gradient(87deg, rgb(33, 82, 255) 0,rgb(33, 212, 253)) ;
+   color: white;
+}
+.second{
+    display: flex;
+    bottom: 40%;
+    position:absolute;
+    justify-content: space-between;
+}
+.second h1{
+     left: 70px;
+     position: absolute;
+     bottom: 10%;
+     font-size: 25px;
+     width: 400px;   
+}
+.second p{
+    width: 400px;
+    position: absolute;
+    left: 70px;
+    top: 50%;
+}
+.third{
+    position: absolute;
+    display: flex;
+    top: 90%;
+}
+.third h1{
+    left: 70px;
+    position: absolute;
+    bottom: 10%;
+    font-size: 25px;
+    width: 400px; 
+   
+}
+.third p{
+    width: 400px;
+    position: absolute;
+    left: 70px;
+    top: 50%;
+}
+.fourth-row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x)* -0.5);
+    margin-left: calc(var(--bs-gutter-x)* -0.5);
+    height: 1000px;
+    position: relative;
+    
+}
+.text h1{
+    max-width: 350px;
+    font-size: 48px;
+    margin: 100px;
+}
+.text p{
+    max-width: 410px;
+    font-size: 20px;
+    margin: 100px;
+    top: 13%;
+    position: absolute;
+}
+
+
+
+
